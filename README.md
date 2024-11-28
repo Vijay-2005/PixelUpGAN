@@ -51,3 +51,9 @@ Ensure the following are installed:
    ```bash
    git clone https://github.com/Vijay-2005/PixelUpGAN
    cd PixelUpGAN
+2. Install the required Python packages:
+  ```bash
+  pip install -r requirements.txt
+3. Prepare the dataset:
+- Download high-resolution images(from DIV2K Dataset).
+- Place the images in the directory specified by HR_PATH in the script (default: /content/drive/MyDrive/DIV2K_train_HR).
